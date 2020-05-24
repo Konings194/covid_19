@@ -161,14 +161,13 @@ class HomeScreen extends StatelessWidget {
                       Column(
                         children: <Widget>[
                           Container(
-                            height: 25,
-                            width: 25,
-                            decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                color: kInfectedColor.withOpacity(.26)
-                                ),
-                                child: Container(//Hier ben ik gebleven),
-                          )
+                              height: 25,
+                              width: 25,
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: kInfectedColor.withOpacity(.26)),
+                              child: Container(//Hier ben ik gebleven),
+                                  ))
                         ],
                       )
                     ],
